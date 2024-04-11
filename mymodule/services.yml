@@ -1,0 +1,4 @@
+services:
+  mymodule.email_form:
+    class: Drupal\mymodule\Form\EmailForm
+    arguments: ['@form_builder', '@plugin.manager.mail', '@language_manager']

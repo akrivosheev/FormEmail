@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ */
+
+function mymodule_mail($key, &$message, $params) {
+  switch ($key) {
+    case 'email_form':
+      $message['from'] = $params['email'];
+      $message['subject'] = $params['subject'];
+      $message['body'][] = $params['message'];
+      break;
+  }
+}

@@ -1,0 +1,6 @@
+name: 'Form Email'
+description: 'Custom Form to send Email'
+package: 'Custom'
+type: module
+core: 10.x
+core_version_requirement: ^8 || ^9 || ^10
