@@ -1,6 +1,7 @@
 name: 'Form Email'
-description: 'Custom Form to send Email'
+description: 'Form to send Email and create contact in Hubspot'
 package: 'Custom'
 type: module
 core: 10.x
 core_version_requirement: ^8 || ^9 || ^10
+configure: form_email.admin_settings

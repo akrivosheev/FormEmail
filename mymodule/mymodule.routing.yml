@@ -6,3 +6,10 @@ mymodule.form_email:
     _title: 'Email Form'
   requirements:
     _permission: 'access content'
+form_email.admin_settings:
+  path: '/admin/config/form_email'
+  defaults:
+    _form: '\Drupal\mymodule\Form\EmailFormSettings'
+    _title: 'Settings for Email Form.'
+  requirements:
+    _permission: 'administer site configuration'
